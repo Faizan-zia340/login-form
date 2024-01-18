@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+  <style> 
+body{background-color:rgb(48, 47, 47); 
+margin-top: 10%;}
+.b{
+  background-color: rgb(48, 47, 47);
+  width: 25%;
+  color: white;
+  padding: 10px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+
+}
+.b:focus{
+  border-color: blue;
+  outline: none;
+  padding: 20px;
+}
+.a{
+  position: absolute;
+  color: white;
+}
+#Mess{
+  height: 75px;
+}
+/* 
+input[type=text] {
+    
+  width: 25%;
+  padding: 12x 20px;
+  background-color: rgb(48, 47, 47);
+  /* margin: 10px 4px; 
+  box-sizing: content-box;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+   rgb(107, 106, 106);
+}
+input[type=email] {
+  width: 25%;
+  background-color: rgb(48, 47, 47);
+  padding: 12px 20px;
+  margin: 10px 2px; 
+  box-sizing: border-box;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+   rgb(107, 106, 106);}
+  input[type=password] {
+  width: 25%;
+  padding: 12px 20px;
+  background-color: rgb(48, 47, 47);
+   margin: 10px 2px; 
+  box-sizing: border-box;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+   rgb(107, 106, 106);}
+  input[type=number] {
+  width: 25%;
+  padding: 12px 14px;
+  background-color: rgb(48, 47, 47);
+   margin: 10px 2px; 
+  box-sizing: border-box;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+    rgb(107, 106, 106);}
+  input[type=Message] {
+  
+    width: 25%;
+  padding: 12px 20px;
+  background-color: rgb(48, 47, 47);
+  margin: 10px 6px; 
+  box-sizing: border-box;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+   rgb(107, 106, 106);} */
+.c{
+  background-color: blue;
+}
+</style>
+</head>
+<body >
+ <form  align="center" action="frame">
+    <label class="a" for="Name">Name</label> 
+    <input class="b" type="text"  
+     name="password" required><br><br>
+ <label class="a" for="email">E-mail</label> 
+<input class="b" type="email" 
+ name="E-mail"><br><br><br>
+ <label class="a" for="password">Password</label>
+<input class="b" type="password"  hiddenr="password"
+name="password"><br><br><br>
+ <label class="a" for="Number">Number</label> 
+<input class="b" type="number"   name="Number"><br><br>
+ <label class="a" for="Message">Message</label>
+<input class="b" id="Mess" type="Message" name="Message">
+<br><br>
+<BUtton class="c" >SEND</BUtton>
+<BUtton >CLEAR</BUtton>
+
+</form>   
+  
+ 
+</html>
